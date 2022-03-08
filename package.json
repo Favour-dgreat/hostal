@@ -1,0 +1,24 @@
+{
+  "main": "index.js",
+  "name": "hostelia",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@celo/contractkit": "^1.0.2",
+    "bignumber.js": "^9.0.1",
+    "rlp": "^2.2.6"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.7",
+    "friendly-errors-webpack-plugin": "1.7.0",
+    "html-webpack-plugin": "3.2.0",
+    "style-loader": "^3.1.0",
+    "webpack": "4.29.6",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "dev": "node index.js",
+    "build": "webpack"
+  }
+}

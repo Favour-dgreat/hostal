@@ -1,0 +1,1594 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="title" content="[Dacade] Gymnaseum">
+  <meta name="author" content="Adeshina Favour-Dgreat Adekunle">
+  <meta name="image" content="https://i.ibb.co/gWvYRhj/Gymnaseum.png">
+  <meta name="description" content="A mini e-commerce / service platform powered by Blockchain Technology">
+  <meta name="keywords" content="celo, celo blockchain, blockchain, e-commerce, ecommerce, dApp, dapp, decentralized, decentralized application, dacade, testnet, technologies, technology, nigeria, emmanueljet, emmanuel joseph, jet, emmanuel joseph(jet)">
+  <link rel="canonical" href="" />
+  <link rel="shortcut icon" href="https://celo.org/favicon.ico">
+
+  <title>[Dacade] Gymnaseum</title>
+
+  <!-- Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="[Dacade] Gymnaseum" />
+  <meta property="og:description" content="A mini e-commerce / service platform powered by Blockchain Technology." />
+  <meta property="og:image" content="https://i.ibb.co/gWvYRhj/Gymnaseum.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:alt" content="Gymnaseum" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="">
+  <meta name="twitter:creator" content="@favour_adeshina">
+  <meta name="twitter:title" content="[Dacade] Gymnaseumnaseumnaseum">
+  <meta name="twitter:description" content="A mini e-commerce / service platform powered by Blockchain Technology">
+  <meta name="twitter:image:src" content="https://i.ibb.co/gWvYRhj/Gymnaseum.png">
+  <meta name="twitter:image:alt" content="Gymnaseum">
+  <!-- CSS -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+  crossorigin="anonymous"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
+/>
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+rel="stylesheet"
+/>
+<!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css" /> -->
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap"
+    rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+   
+  <style>
+    :root {
+      --bs-font-sans-serif: "DM Sans", sans-serif;
+    }
+
+    @media (min-width: 576px) {
+      .card {
+        border: 0;
+        box-shadow: rgb(0 0 0 / 5%) 0px 10px 20px;
+        border-radius: 10px;
+      }
+
+      .card-img-top {
+        width: 100%;
+        height: 20vw;
+        object-fit: cover;
+      }
+    }
+    body {
+  font-family: "Poppins", sans-serif;
+  color: #040000;
+  background-color: #ffffff;
+}
+
+.layout_padding {
+  padding: 90px 0;
+}
+
+.layout_padding2 {
+  padding: 45px 0;
+}
+
+.layout_padding2-top {
+  padding-top: 45px;
+}
+
+.layout_padding2-bottom {
+  padding-bottom: 45px;
+}
+
+.layout_padding-top {
+  padding-top: 90px;
+}
+
+.layout_padding-bottom {
+  padding-bottom: 90px;
+}
+
+.heading_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.heading_container h2 {
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.heading_container h2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 60px;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #f8bc1a;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+/*header section*/
+.hero_area {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0))), url(../images/hero-bg.jpg);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right bottom;
+}
+
+.sub_page .hero_area {
+  height: auto;
+}
+
+.sub_page .slider_section {
+  background: none;
+}
+
+.sub_page.about_page .slider_section {
+  background-color: #f8f8f8;
+}
+
+.header_section {
+  background-color: #f4f3f3;
+}
+
+.header_section .nav_container {
+  margin: 0 auto;
+}
+
+.custom_nav-container .contact_nav {
+  width: 95%;
+  margin-right: auto;
+}
+
+.custom_nav-container .contact_nav .nav-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.custom_nav-container .contact_nav .nav-item .nav-link {
+  padding: 0px 25px;
+  color: #000000;
+  text-align: center;
+}
+
+.custom_nav-container .contact_nav .nav-item .nav-link img {
+  width: 22px;
+  margin-right: 15px;
+}
+
+.custom_nav2 {
+  padding: 0 45px;
+}
+
+.custom_nav2 .custom_nav-container {
+  padding: 5px 0;
+  background-color: #f8bc1a;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 95% 100%, 5% 100%);
+          clip-path: polygon(0 0, 100% 0%, 95% 100%, 5% 100%);
+}
+
+.custom_nav2 .navbar-expand-lg .navbar-nav .nav-item .nav-link {
+  padding: 10px 30px;
+  color: #070101;
+  text-align: center;
+  position: relative;
+}
+
+.custom_nav2 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link, .custom_nav2 .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
+  color: #ffffff;
+}
+
+.custom_nav2 #navbarSupportedContent {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+.btn,
+.btn:focus {
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.custom_nav-container .nav_search-btn {
+  background-image: url(https://i.ibb.co/4KkqqcN/search-icon-black.png);
+  background-size: 18px;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: none;
+  margin: 0 40px 0 15px;
+  background-position: center;
+}
+
+.custom_nav-container .nav_search-btn:hover {
+  background-image: url(https://i.ibb.co/1JB9Jff/search-icon.png);
+}
+
+.navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-brand img {
+  width: 35px;
+  margin-right: 5px;
+}
+
+.navbar-brand span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0c0900;
+  text-transform: uppercase;
+}
+
+.custom_nav-container {
+  z-index: 99999;
+  padding: 15px 0;
+}
+
+.custom_nav-container .navbar-toggler {
+  outline: none;
+}
+
+.custom_nav-container .navbar-toggler .navbar-toggler-icon {
+  background-image: url(https://i.ibb.co/ZxCq97Q/menu.png);
+  background-size: 42px;
+}
+
+.custom_nav-container .nav_search-btn {
+  margin: auto;
+}
+
+/*end header section*/
+/* slider section */
+.slider_section {
+  height: calc(100% - 80px);
+  background-image: url(https://i.ibb.co/jTKj4rL/slider-bg.jpg);
+  background-size: cover;
+}
+
+.slider_section .slider_container {
+  height: calc(100% - 60px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider_section #carouselExampleIndicators {
+  width: 100%;
+}
+
+.slider_section .detail-box h2 {
+  color: #f8bc1a;
+}
+
+.slider_section .detail-box h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #f4f3f3;
+  text-transform: uppercase;
+}
+
+.slider_section .detail-box p {
+  color: #ffffff;
+}
+
+.slider_section .detail-box .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 35px;
+  margin: 35px -5px 0 -5px;
+}
+
+.slider_section .detail-box .btn-box a {
+  width: 165px;
+  text-align: center;
+  margin: 5px;
+}
+
+.slider_section .detail-box .btn-box .btn-1 {
+  display: inline-block;
+  padding: 7px 0;
+  background-color: #f8bc1a;
+  border: 1px solid #f8bc1a;
+  color: #ffffff;
+}
+
+.slider_section .detail-box .btn-box .btn-1:hover {
+  background-color: transparent;
+  color: #f8bc1a;
+}
+
+.slider_section .detail-box .btn-box .btn-2 {
+  display: inline-block;
+  padding: 7px 0;
+  background-color: #f4f3f3;
+  border: 1px solid #f4f3f3;
+  color: #020000;
+}
+
+.slider_section .detail-box .btn-box .btn-2:hover {
+  background-color: transparent;
+  color: #f4f3f3;
+}
+
+.slider_section .carousel-indicators {
+  bottom: 50%;
+  margin: 0;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  left: 25px;
+}
+
+.slider_section .carousel-indicators li {
+  width: 14px;
+  height: 14px;
+  opacity: 1;
+  background-color: transparent;
+  border: 2px solid #f8bc1a;
+  border-radius: 100%;
+}
+
+.slider_section .carousel-indicators li.active {
+  width: 18px;
+  height: 18px;
+  border: 3px solid #f8bc1a;
+}
+
+.slider_section .number_box {
+  width: 50px;
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #f8bc1a;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.slider_section .number_box hr {
+  border: none;
+  width: 1px;
+  height: 200px;
+  background-color: #f8bc1a;
+  margin: 2rem 0;
+}
+
+/* end slider section */
+.about_section {
+  background-color: #f8f8f8;
+}
+
+.about_section .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.about_section .box .img-box img {
+  max-width: 100%;
+}
+
+.about_section .box .detail-box {
+  margin-top: 25px;
+}
+
+.about_section .box .detail-box a {
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #151615;
+  border: 1px solid #151615;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+.about_section .box .detail-box a:hover {
+  background-color: transparent;
+  color: #151615;
+}
+
+.service_section .service_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.service_section .service_container .box {
+  position: relative;
+  color: #ffffff;
+  margin: 1%;
+  -ms-flex-preferred-size: 48%;
+      flex-basis: 48%;
+}
+
+.service_section .service_container .box h6 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.service_section .service_container .box img {
+  width: 100%;
+}
+
+.service_section .service_container .box .visible_heading {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.service_section .service_container .box .link_box {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.service_section .service_container .box .link_box a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background-color: #f8bc1a;
+}
+
+.service_section .service_container .box .link_box a img {
+  width: 20px;
+}
+
+.service_section .service_container .box .link_box a:hover {
+  opacity: .9;
+}
+
+.service_section .service_container .box .link_box h6 {
+  margin-top: 15px;
+}
+
+.service_section .service_container .box::before {
+  display: none;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(67, 17, 125, 0.9);
+}
+
+.service_section .service_container .box:hover .link_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service_section .service_container .box:hover::before {
+  display: block;
+}
+
+.service_section .service_container .box:hover .visible_heading {
+  display: none;
+}
+
+.us_section {
+  background-color: #3c0e78;
+  color: #ffffff;
+}
+
+.us_section .us_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.us_section .us_container .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 25px 10px 0 10px;
+}
+
+.us_section .us_container .box .img-box {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.us_section .us_container .box .img-box img {
+  max-width: 100%;
+}
+
+.us_section .us_container .box .detail-box h5 {
+  font-weight: bold;
+}
+
+.client_section .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+
+.client_section .box .img-box {
+  width: 200px;
+}
+
+.client_section .box .img-box img {
+  width: 100%;
+}
+
+.client_section .box .detail-box {
+  margin-top: 25px;
+}
+
+.client_section .box .detail-box h5 {
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.client_section .box .detail-box h5::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 40px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #f8bc1a;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.client_section .carousel-indicators {
+  margin: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  bottom: 0;
+}
+
+.client_section .carousel-indicators li {
+  opacity: 1;
+  background-color: #000000;
+  width: 40px;
+  height: 10px;
+  border-radius: 10px;
+  background-clip: unset;
+  border: none;
+}
+
+.client_section .carousel-indicators li.active {
+  background-color: #f8bc1a;
+}
+
+.result_section {
+  color: #ffffff;
+  background-color: #3c0e78;
+}
+
+.result_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.result_section .img-box img {
+  width: 100%;
+}
+
+.result_section .detail-box {
+  padding-left: 15px;
+}
+
+.result_section .detail-box h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  position: relative;
+  padding-top: 10px;
+}
+
+.result_section .detail-box h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #f8bc1a;
+}
+
+.result_section .detail-box p {
+  margin-top: 15px;
+}
+
+.result_section .detail-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #f8bc1a;
+  border: 1px solid #f8bc1a;
+  color: #ffffff;
+  margin-top: 25px;
+}
+
+.result_section .detail-box a:hover {
+  background-color: transparent;
+  color: #f8bc1a;
+}
+
+/* contact section */
+.contact_section {
+  position: relative;
+}
+
+.contact_section .bg-img {
+  position: absolute;
+  width: 100px;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.contact_section .bg-img img {
+  width: 100%;
+}
+
+.contact_section .heading_container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact_section .heading_container h2 {
+  text-transform: unset;
+}
+
+.contact_section input::-webkit-input-placeholder {
+  color: #000;
+}
+
+.contact_section input:-ms-input-placeholder {
+  color: #000;
+}
+
+.contact_section input::-ms-input-placeholder {
+  color: #000;
+}
+
+.contact_section input::placeholder {
+  color: #000;
+}
+
+.contact_section input {
+  border: none;
+  outline: none;
+  border-bottom: 0.8px solid #ac9784;
+  width: 90%;
+  margin: 10px 0;
+}
+
+.contact_section input::-webkit-input-placeholder {
+  color: #ac9784;
+}
+
+.contact_section input:-ms-input-placeholder {
+  color: #ac9784;
+}
+
+.contact_section input::-ms-input-placeholder {
+  color: #ac9784;
+}
+
+.contact_section input::placeholder {
+  color: #ac9784;
+}
+
+.contact_form-container {
+  padding: 15px 0 15px 0;
+}
+
+.contact_form-container button {
+  border: none;
+  background-color: #fd9e2e;
+  color: #fff;
+  padding: 14px 55px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.map_container {
+  height: 350px;
+}
+
+.map_container .map-responsive {
+  height: 100%;
+}
+
+/* contact section */
+/* info section */
+.info_section {
+  background-color: #161616;
+  color: #ffffff;
+}
+
+.info_section h6 {
+  font-weight: bold;
+}
+
+.info_section .info_form {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+
+.info_section .info_form h4 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info_section .info_form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info_section .info_form form input {
+  background-color: #ffffff;
+  border: none;
+  width: calc(100% - 139px);
+  outline: none;
+  color: #000000;
+  height: 42.4px;
+  padding-left: 15px;
+}
+
+.info_section .info_form form input ::-webkit-input-placeholder {
+  color: #ffffff;
+  opacity: 0.2;
+}
+
+.info_section .info_form form input :-ms-input-placeholder {
+  color: #ffffff;
+  opacity: 0.2;
+}
+
+.info_section .info_form form input ::-ms-input-placeholder {
+  color: #ffffff;
+  opacity: 0.2;
+}
+
+.info_section .info_form form input ::placeholder {
+  color: #ffffff;
+  opacity: 0.2;
+}
+
+.info_section .info_form form button {
+  background-color: #f8bc1a;
+  display: inline-block;
+  padding: 9px 30px;
+  background-color: #f8bc1a;
+  border: 1px solid #f8bc1a;
+  color: #000000;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.info_section .info_form form button:hover {
+  background-color: transparent;
+  color: #f8bc1a;
+}
+
+.info_section h6 {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.info_section p {
+  color: #cbc9c9;
+}
+
+.info_section ul {
+  padding: 0;
+}
+
+.info_section ul li {
+  list-style-type: none;
+  margin: 3px 0;
+}
+
+.info_section ul li a {
+  color: #cbc9c9;
+}
+
+.info_section ul li a:hover {
+  color: #ffffff;
+}
+
+.info_section .info_link-box a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px 0;
+}
+
+.info_section .info_link-box a:hover {
+  color: #ffffff;
+}
+
+.info_section .info_link-box a img {
+  margin-right: 15px;
+}
+
+.info_section .info_link-box a span {
+  color: #cbc9c9;
+}
+
+.info_section .info_link-box a:hover span {
+  color: #ffffff;
+}
+
+.info_section .info_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 45px auto 15px auto;
+}
+
+.info_section .info_social img {
+  width: 35px;
+  margin-right: 8px;
+}
+
+/* end info section */
+/* footer section*/
+.footer_section {
+  background-color: #161616;
+  padding: 20px 0;
+}
+
+.footer_section p {
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer_section a {
+  color: #ffffff;
+}
+
+/* end footer section*/
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.containers {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+  </style>
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="" alt="" />
+            <span>
+        Gymnaseum           
+</span>
+          </a>
+          
+        </nav>
+      </div>
+
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class=" slider_section position-relative">
+      <div class="container">
+        <div class="custom_nav2">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="d-flex  flex-column flex-lg-row align-items-center">
+                <ul class="navbar-nav  ">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#products">Products </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="slider_container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 col-md-7 offset-md-6 offset-md-5">
+                    <div class="detail-box">
+                      <h2>
+                        Get Your Body
+                      </h2>
+                      <h1>
+                        Fitness Equipments Here
+                      </h1>
+                      <p>
+                        Sell and Buy Gym Equipments and Pay with Cryptocurrency
+                      </p>
+                      <div class="btn-box">
+                        <a href="#about" class="btn-1">
+                          Read More
+                        </a>
+                        <a href="#products" class="btn-2">
+                          Buy / Sell
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 col-md-7 offset-md-6 offset-md-5">
+                    <div class="detail-box">
+                      <h2>
+                        Get Your Body
+                      </h2>
+                      <h1>
+                        Fitness Equipments Here
+                      </h1>
+                      <p>
+                        Sell and Buy Gymnaseum Equipments and Pay with Cryptocurrency
+                      <div class="btn-box">
+                        <a href="#about" class="btn-1">
+                          Read More
+                        </a>
+                        <a href="#products" class="btn-2">
+                          Buy/Sell
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- about section -->
+
+  <section id="about" class="about_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          About Gymnaseum
+        </h2>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="" alt="">
+        </div>
+        <div class="detail-box">
+          <p style="font-size: 20px;">
+        Gymnaseum is an e-commerce platform powered by Blockchain Technology. Built with Solidity, you buy and sell 
+        Gymnaseum equipments and materials, and pay with Celo Cryptocurrency. You also place your service as a Gym trainer and get hired. Finally, in an upcoming feature of Gymnaseum, you get rewarded for exercising and keeping fit.
+              </p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about section -->
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding" id="products">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+Gymnaseum Equipments         
+</h2>
+      </div>
+      <div class="container mt-2" style="max-width: 72em">
+    
+        <nav class="navbar bg-dark text-light" id="#products">
+          <div class="container-fluid">
+            <span class="navbar-brand m-0 h4 fw-bold">Wallet Balance <br><br></span>
+
+            <span class="nav-link border rounded-pill">
+              <span id="balance" style="color: dark;">0</span>
+              cUSD
+            </span>
+          </div>
+        </nav>
+        <div class="alert alert-product alert-warning sticky-top mt-2" role="alert">
+          <span id="notification">⌛ Loading...</span>
+        </div>
+        <div class="mb-4" style="margin-top: 4em">
+          <a
+            class="btn btn-dark rounded-pill"
+            data-bs-toggle="modal"
+            data-bs-target="#addModal"
+
+            style="color: white;"
+          >
+            Add product
+          </a>
+        </div><br><br>
+        <p class="bg-light text-dark"><span style="font-weight: bold;">Available Equipments</span>: <span id="equipmentCounts" class="font-monospace">0</span></p>
+
+        <main id="Gymnaseummarketplace" class="row mt-3"></main>
+      </div>
+<!--Modal-->
+<div
+class="modal fade"
+id="addModal"
+tabindex="-1"
+aria-labelledby="newProductModalLabel"
+aria-hidden="true"
+>
+<div class="modal-dialog">
+<div class="modal-content">
+
+  <div class="modal-header">
+  <h5 class="modal-title" id="newProductModalLabel">New Product</h5>
+  <button
+    type="button"
+    class="btn-close"
+    data-bs-dismiss="modal"
+    aria-label="Close"
+  ></button>
+  </div>     
+     <div class="modal-body">
+      <form>
+        <div class="form-row">
+          <div class="col">
+            <input
+              type="text"
+              id="newProductName"
+              class="form-control mb-2"
+              placeholder="Enter name of product"
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              id="newImgUrl"
+              class="form-control mb-2"
+              placeholder="Enter image url"
+            />
+          </div>
+
+          <div class="col">
+            <input
+              type="text"
+              id="newProductDescription"
+              class="form-control mb-2"
+              placeholder="Enter product description"
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              id="newLocation"
+              class="form-control mb-2"
+              placeholder="Enter location"
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              id="newPrice"
+              class="form-control mb-2"
+              placeholder="Enter price in ($)"
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button
+        type="button"
+        class="btn btn-light border"
+        data-bs-dismiss="modal"
+      >
+        Close
+      </button>
+      <button
+        type="button"
+        class="btn btn-dark"
+        data-bs-dismiss="modal"
+        id="newProductBtn"
+      >
+        Add product
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+<!--/Modal-->
+  </section>
+
+  <!-- end service section -->
+
+
+  <!-- Us section -->
+
+  <section class="us_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Why Choose Us
+        </h2>
+      </div>
+      <div class="us_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="https://i.ibb.co/B2FcNZv/u-1.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              QUALITY EQUIPMENTS
+            </h5>
+            <p>
+              Buy and sell quality Gymnaseum equipments
+            </p>
+          </div>
+        </div>
+        
+        <div class="box">
+          <div class="img-box">
+            <img src="https://i.ibb.co/kxRXgHv/u-2.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              EARN REWARDS
+        </h5>
+            <p>
+              Earn Cryptocurrency for keeping fit and engaging in health tasks. 
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img-box">
+            <img src="https://i.ibb.co/0qrt5vN/u-3.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Wallet Feature
+        </h5>
+            <p>
+              Easily know your Cello Wallet Balance Here
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="https://i.ibb.co/K682TW5/u-4.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Safe and secured
+            </h5>
+            <p>
+              Every transaction carried out on Gymnaseum is totally safe and secured
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<section class="bg-dark text-light" id="services">
+  <div class="container mt-2" style="max-width: 72em">
+    
+    <nav class="navbar bg-white navbar-light">
+      <div class="container-fluid">
+        <span class="navbar-brand m-0 h4 fw-bold">Gymnaseum Trainer Services</span>
+      </div>
+    </nav>
+
+    <div class="alert alert-service alert-warning sticky-top mt-2" role="alert">
+      <span id="serviceNotification">⌛ Loading...</span>
+    </div>
+
+    <div class="container">
+      <form>
+        <p>Place your service as a Gymnaseum trainer and get hired</p>
+      <div class="row">
+        <div class="col-25">
+          <label for="newServiceName">Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="newServiceName" name="newServiceName" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="newServiceImgUrl">Image URL</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="newServiceImgUrl" name="newServiceImgUrl" placeholder="Your Image URL">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="newServiceContact">Contact Detail (phone number/email address</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="newServiceContact" name="newServiceContact" placeholder="Your Contact Details">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="newServiceLocation">Country / State</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="newServiceLocation" name="newServiceLocation" placeholder="Your Country / State">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="newServiceRate">Rate</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="newServiceRate" name="newServiceRate" placeholder="Your Service Rate in cUSD">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="newServiceDescription">Service Description</label>
+        </div>
+        <div class="col-75">
+          <textarea id="newServiceDescription" name="newServiceDescription" placeholder="Give a brief description of your service" style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <button type="button" id="newServiceBtn" class="btn btn-light">Add Your Service</button>
+      </div>
+      </form>
+    </div>
+    <br><br>
+    <p class="bg-light text-dark"><span style="font-weight: bold;">Available Trainers</span>: <span id="trainersCounts" class="font-monospace">0</span></p>
+    <div id="GymnaseumServices" class="mt-5 row"></div>
+</section>
+
+
+  <!-- contact section -->
+  <hr style="color: #151615;">
+
+  <section class="contact_section layout_padding text-center">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          <span>
+            Earn Rewards
+          </span>
+        </h2>
+      </div>
+      <h3>Get rewarded with Cryptocurrency for exercising, eating healthy diet and staying strong!!</h3>
+      <br>
+      <div class="mb-4" style="margin-top: 4em">
+        <a
+          class="btn btn-dark rounded-pill"
+          data-bs-toggle="modal"
+          data-bs-target="#rewardsModal"
+
+          style="color: white;"
+        >
+          Click Here!
+        </a>
+      </div>     
+    </div>
+    <!--Modal-->
+<div
+class="modal fade"
+id="rewardsModal"
+tabindex="-1"
+aria-labelledby="earnRewardsModalLabel"
+aria-hidden="true"
+>
+<div class="modal-dialog">
+<div class="modal-content">
+
+  <div class="modal-header">
+  <h5 class="modal-title" id="earnRewardsModalLabel">Earn Rewards!!</h5>
+  <button
+    type="button"
+    class="btn-close"
+    data-bs-dismiss="modal"
+    aria-label="Close"
+  ></button>
+  </div>     
+     <div class="modal-body">
+      <form>
+        <div class="form-row">
+          <div class="col">
+            <h1>Coming Soon</h1>
+          </div>
+         
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button
+        type="button"
+        class="btn btn-light border"
+        data-bs-dismiss="modal"
+      >
+        Close
+      </button>
+      
+    </div>
+  </div>
+</div>
+</div>
+<!--/Modal-->
+           
+  </section>
+  <!-- end contact section -->
+
+
+  <!-- info section -->
+
+  
+  <!-- footer section -->
+  <footer class="bg-dark text-white text-center font-small mt-4 fixed-bottom">
+    <div class="footer-copyright py-3">
+      &copy;<script>document.write(new Date().getFullYear());</script> Copyright:
+      <a href="https://about.me/favouradeshina/getstarted" target="_blank" class="text-white"> Favour Dgreat</a>. 
+       All Rights Reserved
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+  
+  <script 
+  src="./js/main.js"></script>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+  crossorigin="anonymous"
+  ></script>
+  <script src="https://unpkg.com/ethereum-blockies@0.1.1/blockies.min.js"></script>
+
+ 
+<script type="text/javascript" src="main.js"></script></body>
+
+</html>

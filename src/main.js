@@ -5,7 +5,7 @@ import hostalAbi from '../contract/hostal.abi.json'
 import erc20Abi from "../contract/erc20.abi.json"
 
 const ERC20_DECIMALS = 18;
-const HContractAddress = "0xEe0A6934Da879d29c9B9ad1610738572Fd0a33ac";
+const HContractAddress = "0x014B8d9A527bE91B3067497bd3B84D5eFe566251";
 const erc20Address = "0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1";
 
 let kit, contract;
@@ -394,7 +394,7 @@ document.querySelector("#HostelAgentServices").addEventListener("click", async (
     }
     serviceNotification(`⌛ Awaiting payment to hire "${services[index].name}"...`)
     try {
-      await contract.methods.hireService(index, servicePrice, services[index].user).send({
+      await contract.methods.hireService(index, servicePrice).send({
         from: kit.defaultAccount
       })
       serviceNotification(`🎉 You successfully hired "${services[index].name}".`)

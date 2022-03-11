@@ -4,7 +4,6 @@ pragma solidity >=0.7.0 <0.9.0;
 
 import './HostalAgentService.sol';
 
-
 contract Hostal {
 
   struct Hostel {
@@ -17,18 +16,17 @@ contract Hostal {
     uint price;
     uint sold;
   }
-  address payable internal serviceAddress;
-
 
   uint internal hostelsLength = 0;
   address payable internal ownerAddress;
+  address payable internal serviceAddress;
   ServiceInterface internal ServiceContract;
   mapping (uint => Hostel) internal hostels;
   address internal cUsdTokenAddress = 0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1;
 
   constructor(address serviceContractAddress) {
     ownerAddress = payable(msg.sender);
-    serviceAddress = serviceContractAddress;
+    serviceAddress = payable(serviceContractAddress);
     ServiceContract = ServiceInterface(address(serviceContractAddress));
   }
 
@@ -111,12 +109,12 @@ contract Hostal {
   // hire a service
   function hireService(
    uint _index,
-   uint _price,
-  ) public {
+   uint _price
+  ) public payable {
     require(
       IERC20Token(cUsdTokenAddress).transferFrom(
         msg.sender,
-        payable(serviceAddress),
+       serviceAddress,
         _price
       ),
       "Failed to hire this service."

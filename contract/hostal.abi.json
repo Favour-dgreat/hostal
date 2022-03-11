@@ -181,16 +181,11 @@
 				"internalType": "uint256",
 				"name": "_price",
 				"type": "uint256"
-			},
-			{
-				"internalType": "address",
-				"name": "_serviceUser",
-				"type": "address"
 			}
 		],
 		"name": "hireService",
 		"outputs": [],
-		"stateMutability": "nonpayable",
+		"stateMutability": "payable",
 		"type": "function"
 	},
 	{
